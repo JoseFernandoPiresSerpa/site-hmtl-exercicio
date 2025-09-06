@@ -61,11 +61,19 @@ gap:50px;}
        width: auto; 
   display: flex;
   justify-content: center;
-  gap: 60px; 
+  gap: 20px; 
     list-style: none;
     
 
       font-family: "Cinzel", serif;
+} 
+ul li{padding:10px;
+ border-radius: 60px;
+transition: all 0.3s ease-in-out;}
+ul li:hover{
+  background-color:rgba(240, 248, 255, 0.603) ;
+  color: black;
+  transform: rotate(2deg);
 }
   
       
@@ -74,13 +82,13 @@ gap:50px;}
     
       font-size:30px ;
       margin: 60px;
-    } main>h2{  display: grid; 
+    } main>h2{  display: flex; 
       font-size:50px ;
       margin:60px;
 
 
     } main>blockquote{
-          display: grid; 
+          display: flex; 
       font-size:20px;
       background-color: rgb(216, 236, 254);
       margin: 60px;
@@ -100,7 +108,7 @@ gap:50px;}
   font-family:  "Cinzel", serif;
   font-style: 400;
   text-align: center;
-  margin: auto;
+  margin-bottom: 50px;
 } 
 
 .video{
@@ -131,14 +139,22 @@ footer{background-color: black;
 color: aliceblue;
 font-size: 16px;
 padding: 40px;}
-    @media (max-width:780px){
-      .menu {margin-bottom:10px;}
-  main>p{padding:4px 0 4px 20px;
-  margin:10px;
-font-size: 1.7em;}
-
-
-  }
+    @media (max-width:780px){header{padding: 55px 3px}
+      .menu {margin-bottom:20px;padding:50px 3px;}
+ main> h2{padding:10px;
+  margin-bottom:10px;
+font-size: 2em;}
+      main>p{padding:30px;
+  margin:2px;
+font-size: 1.3em;
+overflow-x: hidden;}
+main> blockquote{
+  padding: 30px;
+  margin: 5px;
+ 
+}
+blockquote> p{ font-size:10px ;}
+    }
        
         
 
