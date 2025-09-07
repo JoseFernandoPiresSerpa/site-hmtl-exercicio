@@ -4,7 +4,7 @@
 padding:0px;}
 
 body{
-   background-color: aliceblue;
+  background: url(fundo\ 2.jpg)  no-repeat center/cover fixed;
    
    
 }
@@ -12,28 +12,34 @@ body{
 .titulo-ca{
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 95%;
     height: auto;
 padding: 20px;
-    background-color: rgb(0, 119, 255);
+margin-top: 20px;
+margin-bottom: 10px;
+    background-image: url(banner.png);
+    background-color: aliceblue;
+    opacity: 0.9;
     background-size:cover;
     gap:20px;
     justify-content: center;
      flex-wrap: wrap;
       box-sizing: border-box;
-
+      border-radius: 30px;
+margin-bottom: 10px;
   
 
 gap:50px;}
   
-.titulop{  color: rgb(211, 235, 248);
-    font-size: 30px;
+.titulop{  color: rgb(255, 255, 255); text-align: center;
+    font-size: 40px;
    font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   position: relative;
   margin: 55px 0;
+  opacity: 2;
  
   
 
@@ -53,18 +59,18 @@ gap:50px;}
 
 }
 
-.menu{background-color: black;
+.menu{background-color: rgba(0, 0, 0, 0.61);
+  padding-top: 20px;
     padding: 50px;
     color: aliceblue;
-  
    margin-bottom: 50px;
-       width: auto; 
+       width: 90%; 
   display: flex;
   justify-content: center;
   gap: 20px; 
     list-style: none;
-    
-
+    border-radius: 40px;
+margin: auto;
       font-family: "Cinzel", serif;
 } 
 ul li{padding:10px;
@@ -79,22 +85,28 @@ ul li:hover{
       
        
     main{width: auto;} main>p{
-    
-      font-size:30px ;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.226);
+      border-radius: 40px;
+      font-size:23px ;
       margin: 60px;
+      text-shadow: 3px 3px 8px rgba(5, 36, 37, 0.747) ;
     } main>h2{  display: flex; 
       font-size:50px ;
       margin:60px;
+      color: rgb(0, 0, 0);
 
 
     } main>blockquote{
           display: flex; 
       font-size:20px;
-      background-color: rgb(216, 236, 254);
+      background-color: rgba(22, 27, 31, 0.267);
       margin: 60px;
-      box-shadow: 10px 10px 10px rgba(114, 125, 138, 0.539);
+      box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.459);
       border-radius:20px ;
       padding: 60px;
+        color: rgb(0, 0, 0);
     }
 .imagem1{
   display: flex;
@@ -103,7 +115,7 @@ ul li:hover{
   
   
 }aside{
-
+  color: aliceblue;
   font-size: 50px;
   font-family:  "Cinzel", serif;
   font-style: 400;
